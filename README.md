@@ -111,19 +111,19 @@
 
 You can test the **API Gateway** by sending requests to the following endpoints:
 
-- `GET http://localhost:8085/api/students/{id}`
+- `GET http://localhost:8085/students/{id}`
   - Returns the details of the student with the provided ID.
-- `GET http://localhost:8085/api/students/by-favorite-sport/{favoriteSport}`
+- `GET http://localhost:8085/students/by-favorite-sport/{favoriteSport}`
 
   - Returns a list of students who have the given favorite sport.
 
-- `GET http://localhost:8085/api/employees/{id}`
+- `GET http://localhost:8085/employees/{id}`
 
   - Returns the details of the employee with the provided ID.
 
-- `GET http://localhost:8085/api/employees/by-favorite-color/{favoriteColor}`
+- `GET http://localhost:8085/employees/by-favorite-color/{favoriteColor}`
 
   - Returns a list of employees who have the given favorite color.
 
-- `GET http://localhost:8085/api/employees/{id}/address`
+- `GET http://localhost:8085/employees/{id}/address`
   - Returns the address of the employee with the provided ID by calling **Address-Service**.
